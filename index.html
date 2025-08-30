@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chaikowski Wettbewerb – Musikwettbewerb</title>
+  <meta name="description" content="Chaikowski Wettbewerb – Musikwettbewerb für junge Talente. Anmeldung, Termine, Kategorien und Kontakt.">
+  <style>
+    :root { --bg:#ffffff; --fg:#1f2937; --mut:#6b7280; --acc:#2563eb; --card:#f8fafc; --line:#e5e7eb; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+    header{padding:48px 16px;border-bottom:1px solid var(--line);text-align:center}
+    h1{margin:0 0 6px;font-size:2rem}
+    .lead{margin:0;color:var(--mut)}
+    nav{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+    nav a{color:var(--acc);text-decoration:none;padding:6px 10px;border-radius:8px}
+    nav a:hover{background:var(--card)}
+    main{max-width:900px;margin:0 auto;padding:24px 16px}
+    section{margin:28px 0;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff}
+    h2{margin:0 0 8px;font-size:1.25rem}
+    ul{margin:8px 0 0 20px}
+    .grid{display:grid;gap:12px}
+    @media(min-width:720px){.grid-2{grid-template-columns:1fr 1fr}}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--acc);color:#fff;text-decoration:none}
+    .mut{color:var(--mut)}
+    footer{padding:24px 16px;text-align:center;color:var(--mut);border-top:1px solid var(--line);font-size:.92rem}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chaikowski Wettbewerb</h1>
+    <p class="lead">Musikwettbewerb für junge Talente – Solo & Kammermusik</p>
+    <nav aria-label="Hauptnavigation">
+      <a href="#ueber">Über</a>
+      <a href="#kategorien">Kategorien</a>
+      <a href="#zeitplan">Zeitplan</a>
+      <a href="#anmeldung">Anmeldung</a>
+      <a href="#jury">Jury</a>
+      <a href="#regeln">Teilnahme</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="ueber">
+      <h2>Über den Wettbewerb</h2>
+      <p>Der <strong>Chaikowski Wettbewerb</strong> fördert junge Musikerinnen und Musiker durch faire Wertung, konstruktives Feedback und Konzertmöglichkeiten. Austragungsort ist <em>…(Stadt, Saal)…</em>. Eingeladen sind Teilnehmende aller Nationalitäten.</p>
+      <p class="mut">Termin: <strong>…(Datum, z. B. 15.–17. November 2025)…</strong> · Austragung: <strong>Präsenz</strong> (optional: Video-Vorrunde)</p>
+    </section>
+
+    <section id="kategorien">
+      <h2>Kategorien & Altersklassen</h2>
+      <div class="grid grid-2">
+        <div>
+          <h3 style="margin:0 0 6px">Instrumente</h3>
+          <ul>
+            <li>Klavier (Solo)</li>
+            <li>Streichinstrumente (Violine, Viola, Cello)</li>
+            <li>Gesang (Klassik)</li>
+            <li>Kammermusik (Duo–Quartett)</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="margin:0 0 6px">Altersklassen</h3>
+          <ul>
+            <li>A: bis 12 Jahre</li>
+            <li>B: 13–16 Jahre</li>
+            <li>C: 17–21 Jahre</li>
+            <li>D: 22–26 Jahre</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mut">Programmdauer je nach Klasse: A 5–8 min · B 8–12 min · C 12–18 min · D 18–25 min.</p>
+    </section>
+
+    <section id="zeitplan">
+      <h2>Zeitplan (Beispiel)</h2>
+      <ul>
+        <li><strong>bis …(Datum)</strong> · Anmeldung & Video-Vorrunde (optional)</li>
+        <li><strong>…(Datum)</strong> · Bekanntgabe Zulassung</li>
+        <li><strong>…(Datum)</strong> · Präsenz-Runden</li>
+        <li><strong>…(Datum)</strong> · Finale & Preisträgerkonzert</li>
+      </ul>
+    </section>
+
+    <section id="anmeldung">
+      <h2>Anmeldung</h2>
+      <p>Die Anmeldung erfolgt online. Bitte halte bereit: Personalausweis/Pass, kurzer Lebenslauf, Programmliste, ggf. Video-Link.</p>
+      <p><a class="btn" href="https://example.com/anmeldung" target="_blank" rel="noopener">Jetzt anmelden</a></p>
+      <p class="mut">Startgebühr: … € (Rückerstattung nur bei Absage der Veranstaltung).</p>
+    </section>
+
+    <section id="jury">
+      <h2>Jury</h2>
+      <ul>
+        <li>Prof. Vorname Nachname – Hochschule … (Klavier)</li>
+        <li>Dr. Vorname Nachname – Orchester … (Violine)</li>
+        <li>Vorname Nachname – Gesangspädagoge …</li>
+      </ul>
+      <p class="mut">Die Jury vergibt Punktwertungen und schriftliches Feedback.</p>
+    </section>
+
+    <section id="regeln">
+      <h2>Teilnahmebedingungen</h2>
+      <ul>
+        <li>Programm frei wählbar; mindestens ein Werk aus Epoche …</li>
+        <li>Wiederholungen nach Juryhinweis kürzbar.</li>
+        <li>Begleitung: eigene Korrepetition möglich; vor Ort vermittelbar.</li>
+        <li>Audio/Video-Mitschnitte zu Dokumentationszwecken zulässig.</li>
+      </ul>
+      <p>Details: <a href="/teilnahmebedingungen.pdf">PDF herunterladen</a></p>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href="mailto:info@chaikowski-wettbewerb.de">info@chaikowski-wettbewerb.de</a></p>
+      <p>Veranstalter: <em>…(Name/Adresse)…</em></p>
+      <p>Socials: <a href="https://example.com/instagram" target="_blank" rel="noopener">Instagram</a> · <a href="https://example.com/youtube" target="_blank" rel="noopener">YouTube</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
+  </footer>
+</body>
+</html>
